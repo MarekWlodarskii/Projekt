@@ -1,0 +1,74 @@
+html{
+    background-color: rgb(25,25,25);
+}
+.RegisterLoginForm{
+    width: 50%;
+    margin-left: auto;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(25,25,25);
+    border-radius: 1rem;
+}
+input{
+    width: 40%;
+    height: 2rem;
+    padding: 2%;
+    margin-right: 5%;
+    border: none;
+    border-bottom: 0.1rem solid rgb(75,75,75);
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: rgb(25,25,25);
+    color: white;
+    margin-bottom: 2rem;
+}
+input::placeholder{
+    color:white;
+}
+input:focus{
+    outline: none;
+    font-weight: 600;
+}
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 12rem;
+}
+button{
+    width: 1%;
+    height: 1.5rem;
+    margin:auto;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    background-color: rgb(25,25,25);
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.motionLabel
+{
+    width: 40%; 
+    margin: auto;
+    text-align: left;
+    padding-left: 2%;
+    margin-bottom: 1rem;
+}
+.wrongData{
+    border-color: red;
+}
+.correctData{
+    border-color: green;
+}
+.noDataYet{
+    border-color: rgb(75,75,75);
+}
+.wrongDataMessage{
+    color: #FA8072;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
