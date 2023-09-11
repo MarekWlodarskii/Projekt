@@ -1,0 +1,38 @@
+.NavigateBar{
+    width: 80%;
+    margin: auto;
+    height: 5rem;
+    background-color: rgb(25,25,25);
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 1rem;
+    top: 2rem;
+    margin-bottom: 2rem;
+}
+.NavigateBar ul{
+    list-style-type: none;
+    display: grid;
+    width: 100%;
+    line-height: 5rem;
+    grid-template-columns: 10fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+}
+.NavigateBar ul li{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration: none;
+}
+.RightMenuElement{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.NavigateBar ul li:hover{
+    color: rgb(220, 220, 220);
+}
+a{
+    text-decoration: none;
+}
